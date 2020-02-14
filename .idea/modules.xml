@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/coreJava/coreJava.iml" filepath="$PROJECT_DIR$/coreJava/coreJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../demoApi/demoApi.iml" filepath="$PROJECT_DIR$/../demoApi/demoApi.iml" />
       <module fileurl="file://$PROJECT_DIR$/s3Techies.iml" filepath="$PROJECT_DIR$/s3Techies.iml" />
     </modules>
   </component>
