@@ -63,7 +63,7 @@ public class ServiceBank {
                 }
                 }}
             if (tracker == 1){
-                check = "Unsuccessful Account Id exists";
+                check = "Unsuccessful Account Id exists.";
 
             }
             else{
