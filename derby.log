@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Mon Feb 03 19:58:02 CST 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0170-0deb-2f89-000006b0c870 
+on database directory memory:/Users/ishwarsilwal/Downloads/Chase/testdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4459eb14 
+Loaded from file:/Users/ishwarsilwal/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=10.0.2+13
+user.dir=/Users/ishwarsilwal/Downloads/Chase
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.14.6
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
