@@ -51,7 +51,7 @@ public class ServiceBank {
             amountRecords.add(accountManagement.getTotalAmount());
             idRecords.put(accountManagement.getAccountId(), amountRecords);
             records.add(accountManagement);
-            check = "Successfully Created Account";
+            check = "Successfully Created Account.";
         }
         else{{
             for (i = 0; i < records.size(); i++) {
