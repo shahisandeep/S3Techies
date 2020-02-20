@@ -34,7 +34,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
+    <property name="settings.editor.selected.configurable" value="application.passwordSafe" />
   </component>
   <component name="RunManager">
     <configuration name="helloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -80,7 +80,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -115,13 +117,19 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1878" height="304" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1581647538922" />
-    <state x="448" y="121" key="SettingsEditor" timestamp="1581647517523">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="288" y="0" key="SettingsEditor" timestamp="1581980967108">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="288" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1581980967108" />
     <state x="448" y="121" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1581647517523" />
-    <state x="560" y="280" key="Vcs.Push.Dialog.v2" timestamp="1581647648382">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="373" y="155" key="Vcs.Push.Dialog.v2" timestamp="1581982123059">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="373" y="155" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1581982123059" />
     <state x="560" y="280" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1581647648382" />
+    <state x="361" y="145" key="git4idea.merge.GitPullDialog" timestamp="1581981531994">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="361" y="145" key="git4idea.merge.GitPullDialog/0.0.1280.680@0.0.1280.680" timestamp="1581981531994" />
   </component>
 </project>
