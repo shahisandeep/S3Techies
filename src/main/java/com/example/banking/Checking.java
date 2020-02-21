@@ -9,13 +9,13 @@ package com.example.banking;
 @RestController
 @RequestMapping("/chasebank")
 public class Checking {
-    public int currentAmount = 500;
+    public int currentAmount = 5000;
 
     @GetMapping("/currentAmount")
     public int checkingAmount() {
         return currentAmount;
     }
-
+//
     @RequestMapping(method = RequestMethod.POST, value = "/totalAmount")
     public int add(@RequestBody DepositAmounts depositAmounts) {
         int totalAmount = currentAmount + depositAmounts.getFirstDeposit() + depositAmounts.getSecondDeposit() + depositAmounts.getThirdDeposit();
