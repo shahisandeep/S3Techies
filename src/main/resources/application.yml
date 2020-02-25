@@ -1,2 +1,6 @@
 savings:
   startingBalance: 500
+
+spring:
+  profiles:
+    active: dev
