@@ -4,12 +4,12 @@ import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 import s3.january.session.config.CurrentBalance;
 
-
-@Profile("dev")
+@Profile("local")
 @Service
-public class BalanceInquiryService implements CurrentBalance {
+public class BalanceInquiryServiceLocal implements CurrentBalance {
 
     public int getCurrentBalance() {
-        return 200;
+        return 500;
     }
+
 }
