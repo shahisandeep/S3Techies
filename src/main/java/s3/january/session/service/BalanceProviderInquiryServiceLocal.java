@@ -8,6 +8,7 @@ import s3.january.session.config.BalanceProvider;
 @Profile("local")
 @Service
 public class BalanceProviderInquiryServiceLocal implements BalanceProvider {
+
     @Value("${savings.startingBalance}")
     private int startingBalance;
 

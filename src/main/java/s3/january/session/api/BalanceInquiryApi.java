@@ -29,7 +29,14 @@ public class BalanceInquiryApi {
 
     @GetMapping("/currentBalanceWithAutoWiringInterface")
     public int currBalance() {
+        if (env.getActiveProfiles().equals("local")) {
+            return balanceProviderLocal.getCurrentBalance();
+        } else {
+            return balanceProviderDev.getCurrentBalance();
+        }
+    }
+    @GetMapping("/currentBalanceWithAutoWiringInterfaceSpringy")
+    public int currBalanceSpring() {
         return balanceProvider.getCurrentBalance();
     }
-
 }
