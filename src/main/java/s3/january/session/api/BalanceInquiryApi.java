@@ -39,6 +39,33 @@ public class BalanceInquiryApi {
         String s = "sss";
         //InputStream inputStream = new FileInputStream(file.getInputStream());
         //10,20, 20, 20, 20
+
+        /*
+        todays output:
+        {
+    "ssn": 12345,
+    "firstName": "Bikesh",
+    "lastNamew": "shrestha",
+    "score": 750,
+    "income": 2000.0,
+    "address": "irving"
+}
+         expected output:
+
+         {
+	"jobs": ["americanAirlines", "usaa", "google", "facebook"],
+    "ssn": 12345,
+    "firstName": "Bikesh",
+    "lastNamew": "shrestha",
+    "score": 750,
+    "income": 2000.0,
+    "address": "irving"
+
+    /*
+    I have done 90% if it. fix the error and display the expected output.
+         */
+}
+         */
         LoanRequest loanRequest = new LoanRequest();
 
         loanRequest.setFirstName("Bikesh");
@@ -47,6 +74,7 @@ public class BalanceInquiryApi {
         loanRequest.setIncome(2000);
         loanRequest.setScore(750);
         loanRequest.setSsn(12345);
+        loanRequest.setJob("usaa");
 
         return new ResponseEntity< LoanRequest >(loanRequest, HttpStatus.OK);
 

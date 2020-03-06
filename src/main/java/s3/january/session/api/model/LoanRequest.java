@@ -1,6 +1,8 @@
 package s3.january.session.api.model;
 
 
+import java.util.List;
+
 public class LoanRequest {
 
     public int getSsn() {
@@ -57,4 +59,14 @@ public class LoanRequest {
     private int score;
     private double income;
     private String address;
+
+    public List<String> getJob() {
+        return job;
+    }
+
+    public void setJob(List<String> job) {
+        this.job = job;
+    }
+
+    List<String> job;
 }
