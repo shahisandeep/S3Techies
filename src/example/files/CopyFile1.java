@@ -9,7 +9,7 @@ import java.nio.file.FileAlreadyExistsException;
 //java character streams are used to perform input and output for 16-bit unicode
 public class CopyFile1 {
 
-    public static void main(String[] args) throws IOException, FileNotFoundException, FileAlreadyExistsException {
+    public static void main(String[] args) throws IOException {
         FileReader fileReader = null;
         FileWriter fileWriter = null;
 

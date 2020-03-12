@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca18bc86-09d8-400e-a48b-5e9137d3de43" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/example/files/copyFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/example/files/copyFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example/files/CopyFile1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/example/files/CopyFile1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +41,20 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.copyFile">
+  <component name="RunManager" selected="Application.CopyFile1">
+    <configuration name="CopyFile1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.files.CopyFile1" />
+      <module name="example_files" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.files.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReadConsole" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="example.files.ReadConsole" />
       <module name="example_files" />
@@ -84,6 +96,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CopyFile1" />
         <item itemvalue="Application.copyFile" />
         <item itemvalue="Application.fileStreamTest" />
         <item itemvalue="Application.ReadConsole" />
@@ -128,25 +141,25 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="467" y="23" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1583976235132" />
-    <state width="658" height="310" key="GridCell.Tab.0.bottom" timestamp="1583989860739">
+    <state width="658" height="310" key="GridCell.Tab.0.bottom" timestamp="1583989889807">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="658" height="310" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583989860739" />
+    <state width="658" height="310" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583989889807" />
     <state width="984" height="273" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1583976113881" />
-    <state width="658" height="310" key="GridCell.Tab.0.center" timestamp="1583989860738">
+    <state width="658" height="310" key="GridCell.Tab.0.center" timestamp="1583989889806">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="658" height="310" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583989860738" />
+    <state width="658" height="310" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583989889806" />
     <state width="984" height="273" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1583976113880" />
-    <state width="658" height="310" key="GridCell.Tab.0.left" timestamp="1583989860738">
+    <state width="658" height="310" key="GridCell.Tab.0.left" timestamp="1583989889806">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="658" height="310" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583989860738" />
+    <state width="658" height="310" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583989889806" />
     <state width="984" height="273" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1583976113879" />
-    <state width="658" height="310" key="GridCell.Tab.0.right" timestamp="1583989860739">
+    <state width="658" height="310" key="GridCell.Tab.0.right" timestamp="1583989889807">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="658" height="310" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583989860739" />
+    <state width="658" height="310" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583989889807" />
     <state width="984" height="273" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1583976113880" />
     <state x="164" y="23" key="SettingsEditor" timestamp="1583981002874">
       <screen x="0" y="23" width="1440" height="822" />
