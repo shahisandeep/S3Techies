@@ -1,1 +1,3 @@
 My name is Bikesh Shrestha
+My age is 27
+My date of birth is 1992

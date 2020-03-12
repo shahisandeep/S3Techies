@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca18bc86-09d8-400e-a48b-5e9137d3de43" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/files/ReadConsole.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/example/files/fileStreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/example/files/fileStreamTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example/files/copyFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/example/files/copyFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +42,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.fileStreamTest">
+  <component name="RunManager" selected="Application.copyFile">
     <configuration name="ReadConsole" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="example.files.ReadConsole" />
       <module name="example_files" />
@@ -86,9 +84,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.copyFile" />
         <item itemvalue="Application.fileStreamTest" />
         <item itemvalue="Application.ReadConsole" />
-        <item itemvalue="Application.copyFile" />
       </list>
     </recent_temporary>
   </component>
@@ -130,33 +128,42 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="467" y="23" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1583976235132" />
-    <state width="984" height="273" key="GridCell.Tab.0.bottom" timestamp="1583976113881">
-      <screen x="0" y="23" width="1440" height="822" />
+    <state width="658" height="310" key="GridCell.Tab.0.bottom" timestamp="1583989860739">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="273" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583975889243" />
+    <state width="658" height="310" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583989860739" />
     <state width="984" height="273" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1583976113881" />
-    <state width="984" height="273" key="GridCell.Tab.0.center" timestamp="1583976113880">
-      <screen x="0" y="23" width="1440" height="822" />
+    <state width="658" height="310" key="GridCell.Tab.0.center" timestamp="1583989860738">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="273" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583975889242" />
+    <state width="658" height="310" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583989860738" />
     <state width="984" height="273" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1583976113880" />
-    <state width="984" height="273" key="GridCell.Tab.0.left" timestamp="1583976113879">
-      <screen x="0" y="23" width="1440" height="822" />
+    <state width="658" height="310" key="GridCell.Tab.0.left" timestamp="1583989860738">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="273" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583975889241" />
+    <state width="658" height="310" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583989860738" />
     <state width="984" height="273" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1583976113879" />
-    <state width="984" height="273" key="GridCell.Tab.0.right" timestamp="1583976113880">
-      <screen x="0" y="23" width="1440" height="822" />
+    <state width="658" height="310" key="GridCell.Tab.0.right" timestamp="1583989860739">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="273" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583975889242" />
+    <state width="658" height="310" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583989860739" />
     <state width="984" height="273" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1583976113880" />
     <state x="164" y="23" key="SettingsEditor" timestamp="1583981002874">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="164" y="23" key="SettingsEditor/0.23.1440.822@0.23.1440.822" timestamp="1583981002874" />
-    <state x="402" y="117" key="Vcs.Push.Dialog.v2" timestamp="1583976291767">
-      <screen x="0" y="23" width="1440" height="822" />
+    <state x="402" y="103" key="Vcs.Push.Dialog.v2" timestamp="1583984526464">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="402" y="103" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1583984526464" />
     <state x="402" y="117" key="Vcs.Push.Dialog.v2/0.23.1440.822@0.23.1440.822" timestamp="1583976291767" />
+    <state x="714" y="175" key="git4idea.merge.GitPullDialog" timestamp="1583984437016">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="714" y="175" key="git4idea.merge.GitPullDialog/0.0.1440.900@0.0.1440.900" timestamp="1583984437016" />
+    <state x="813" y="346" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1583989684980">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="813" y="346" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1440.900@0.0.1440.900" timestamp="1583989684980" />
   </component>
 </project>

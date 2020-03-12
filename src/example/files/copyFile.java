@@ -28,6 +28,7 @@ public class copyFile {
             if(inputStream != null) {
                 inputStream.close();
             }
+
             if(outputStream !=null) {
                 outputStream.close();
             }
