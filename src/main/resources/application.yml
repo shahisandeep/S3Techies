@@ -1,0 +1,6 @@
+server:
+  port: 3456
+
+spring:
+  profiles:
+    active: dev
