@@ -2,23 +2,27 @@ package com.example.accessingdatamysql;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
-@Controller
-@RequestMapping(path="/demo")
+@RestController
 public class MainController {
+
 	@Autowired
 	private UserRepository userRepository;
 
+	@Autowired
+	private StudentRespository studentRespository;
+
+	public MainController(UserRepository userRepository, StudentRespository studentRespository) {
+		this.userRepository = userRepository;
+		this.studentRespository = studentRespository;
+	}
+
 	@PostMapping(path="/add")
-	public @ResponseBody String addNewUser (@RequestParam String name, @RequestParam String email) {
+	public @ResponseBody String addNewUser (@RequestBody PersonalInfo personalInfo) {
 		User n = new User();
-		n.setName(name);
-		n.setEmail(email);
+		n.setName(personalInfo.getName());
+		n.setEmail(personalInfo.getEmail());
 		userRepository.save(n);
 		return "Saved";
 	}
@@ -28,4 +32,20 @@ public class MainController {
 		return userRepository.findAll();
 
 	}
+
+	@PostMapping("/students")
+	public String addStudents(@RequestBody Student student ){
+		StudentInfo studentInfo = new StudentInfo();
+		studentInfo.setRollNumber(student.getRollNumber());
+		student.setName(student.getName());
+		studentRespository.save(studentInfo);
+		return "Saved student";
+	}
+
+	@GetMapping(path="/students/all")
+	public @ResponseBody Iterable<StudentInfo> getAllStudents() {
+		return studentRespository.findAll();
+
+	}
+
 }
