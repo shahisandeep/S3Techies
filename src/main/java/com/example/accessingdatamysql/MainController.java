@@ -37,15 +37,54 @@ public class MainController {
 	public String addStudents(@RequestBody Student student ){
 		StudentInfo studentInfo = new StudentInfo();
 		studentInfo.setRollNumber(student.getRollNumber());
-		student.setName(student.getName());
+		studentInfo.setName(student.getName());
 		studentRespository.save(studentInfo);
 		return "Saved student";
 	}
 
 	@GetMapping(path="/students/all")
-	public @ResponseBody Iterable<StudentInfo> getAllStudents() {
+	public @ResponseBody Iterable<StudentInfo> KismatHastwoClientsSandeepPrince() {
 		return studentRespository.findAll();
-
 	}
 
+	@DeleteMapping("/students/remove")
+	public @ResponseBody String removeStudents(@RequestParam Integer id){
+		studentRespository.deleteById(id);
+		return "removed";
+	}
+
+	@PutMapping("/students/update/updateThroughRequestParam")
+	public @ResponseBody String updateStudentsRequestParam(@RequestParam Integer id, @RequestParam Integer rollNumber, @RequestParam String name){
+		StudentInfo studentInfo = new StudentInfo();
+		studentInfo.setRollNumber(rollNumber);
+		studentInfo.setName(name);
+		studentInfo.setId(id);
+		studentRespository.save(studentInfo);
+		return "updated";
+	}
+
+	@PutMapping("/students/update/throughRequestBody")
+	public @ResponseBody String updateStudentsRequestBody(@RequestBody Student student){
+		StudentInfo studentInfo = new StudentInfo();
+		studentInfo.setRollNumber(student.getRollNumber());
+		studentInfo.setName(student.getName());
+		studentInfo.setId(student.getId());
+		studentRespository.save(studentInfo);
+		return "updated";
+	}
+
+	/*
+	HW:
+
+	hint: inpuut
+
+	 100 -> database - true/false
+	 studentRepository
+
+	 if (existsById(id))
+	 	save
+	 else
+	 	return "cannot save. please give me a valid id"
+
+	 */
 }
